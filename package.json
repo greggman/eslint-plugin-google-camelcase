@@ -1,0 +1,36 @@
+{
+  "name": "eslint-plugin-google-camelcase",
+  "version": "0.0.0",
+  "description": "enforce camelcase names but allow opt_ prefix",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/lib/rules/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/greggman/eslint-plugin-google-camelcase.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "var",
+    "variable"
+  ],
+  "author": "Gregg Tavares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greggman/eslint-plugin-google-camelcase/issues"
+  },
+  "homepage": "https://github.com/greggman/eslint-plugin-google-camelcase",
+  "peerDependencies": {
+    "eslint": ">=0.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^0.11.0",
+    "eslint-tester": "^0.4.0",
+    "mocha": "^2.1.0"
+  }
+}
