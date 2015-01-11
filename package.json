@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-google-camelcase",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "enforce camelcase names but allow opt_ prefix",
   "main": "index.js",
   "directories": {
