@@ -35,6 +35,7 @@ eslintTester.addRuleTest("lib/rules/google-camelcase", {
         "[foo.bar_baz.nesting]",
         "if (foo.bar_baz === boom.bam_pow) { [foo.baz_boom] }",
         "var a = opt_test;",
+        "var args = var_args;"
     ],
     invalid: [
         {
